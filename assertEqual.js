@@ -1,8 +1,10 @@
-const assertEqual = function(array) {
-    return array[0];
-  };
-// TEST CODE
+const assertEqual = function(actual, expected) {
+  if (actual === expected) {
+    console.log(`✅  Assertion passed: ${actual} === ${expected}`);
+  } else {
+    console.log(`🛑  Assertion failed: ${actual} !== ${expected}`);
+  }
+};
+  
 assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
-assertEqual(1, 2);
-assertEqual("Bootcamp", "Bootcamp");
+
