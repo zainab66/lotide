@@ -1,4 +1,3 @@
-/*
 const head   = require('./head');
 const tail   = require('./tail');
 const middle = require('./middle');
@@ -36,10 +35,3 @@ module.exports = {
   takeUntil,
   without
 };
-*/
-const x = 4;
-const y = 1;
-//const obj = { x, y };
-
-
-console.log({ x: x, y: y });
